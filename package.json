@@ -1,0 +1,29 @@
+{
+  "name": "absolutize-links",
+  "version": "0.1.0",
+  "description": "A bash script to convert relative node_modules symlinks to absolute ones, so we can use with docker volumes.",
+  "bin": {
+    "absolutize-links": "bin/absolutize-links.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseditson/absolutize-links.git"
+  },
+  "keywords": [
+    "absolute",
+    "links",
+    "npm",
+    "absolutize",
+    "docker",
+    "symlink"
+  ],
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jesseditson/absolutize-links/issues"
+  },
+  "homepage": "https://github.com/jesseditson/absolutize-links#readme"
+}
